@@ -1,13 +1,20 @@
 /* CSS stillerinizi buraya girin */
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     background: #EEEEEE;
     color: #222831;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Source Serif Pro', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+.container-body {
+    width: 90%;
+    display: flex;
 }
 
 h1 {
@@ -20,18 +27,8 @@ h1 {
     font-family: 'Acme', sans-serif;
 }
 
-.container-header {
-    width: 50%;
-}
-
-.container-body {
-    width: 90%;
-    display: flex;   
-}
-
 header {
     background-color: #393E46;
-    display: block;
     border-bottom: #00ADB5 0.4rem solid;
 }
 
@@ -42,7 +39,7 @@ header nav {
     margin-left: 2%;
 }
 
-nav a {
+header nav a {
     background-color: #EEEEEE;
     margin: auto;
     border-radius: 2rem;
@@ -55,55 +52,60 @@ nav a {
     font-family: 'Acme', sans-serif;
 }
 
-nav a:hover{
-    background-color: #00ADB5; 
-    color: #EEEEEE;}
+header nav a:hover {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+
+
 
 .container-img {
-    width: 90%;
+    min-width: 40%;
     /* min-width: 8rem; */
     /* display: inline-block; */
     display: flex;
-   
+
     justify-content: space-around;
-    padding: 2% 2% 0 0;
+    padding-top: 1rem;
     flex-grow: 1;
-    margin-left: 5%
-    
+    margin-left: 5rem;
+
 }
 
 .container-text {
     width: 50%;
+    min-width: 20%;
     min-width: 4rem;
-    /* display: inline-block; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
     padding: 7% 0;
-    /* height: 30%; */
     font-family: 'Quicksand', sans-serif;
+
 }
 
-.container-text h2{
+.container-text h2 {
     font-family: 'Acme', sans-serif;
 }
 
 .container-text a {
-    min-width:5rem;
- background-color: #393E46;
- color:#EEEEEE;
- border-radius: 2rem;
- margin: auto;
- padding: 1rem 2rem;
- 
- text-decoration: none;
- font-family: 'Acme', sans-serif;
+    min-width: 5rem;
+    background-color: #393E46;
+    color: #EEEEEE;
+    border-radius: 2rem;
+    margin: auto;
+    padding: 1rem 2rem;
+
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
 }
 
 .container-text a:hover {
-    background-color:#00ADB5 ;
-    color:#ffffff;}
+    background-color: #00ADB5;
+    color: #ffffff;
+}
 
 .gallery-container {
     display: flex;
@@ -116,28 +118,30 @@ nav a:hover{
 
 .gallery-item {
     display: inline-block;
-    min-width: 25rem;
-    
-    /* width: 21%; */
+    min-width: 35rem;
+
+    width: 21%;
     text-align: center;
     padding-bottom: 2%;
     font-family: 'Acme', sans-serif;
-    
+
 }
 
 .gallery-item img {
-    width: 90%;  
+    width: 90%;
 }
-.gallery-item img:hover{
+
+.gallery-item img:hover {
     border: #00ADB5 0.5rem solid;
 }
+
 footer {
     /* display: flex;
  flex-direction: column; */
     text-align: center;
     padding: 2%;
     background-color: #393E46;
-    color: #EEEEEE;  
+    color: #EEEEEE;
     font-family: 'Quicksand', sans-serif;
     border-top: #00ADB5 0.4rem solid;
 }
@@ -154,7 +158,7 @@ footer a {
     font-family: 'Acme', sans-serif;
 }
 
-footer a:hover{
-    background-color: #00ADB5; 
+footer a:hover {
+    background-color: #00ADB5;
     color: #EEEEEE;
 }
