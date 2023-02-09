@@ -63,7 +63,7 @@ margin:auto
 
 .container-img {
 
-    width: 45%;
+    width: 100%;
     display: inline-block;
 
     /* display: flex;
@@ -80,7 +80,8 @@ margin:auto
 }
 
 .container-text {
-    width: 50%;
+    /* width: 50%; */
+    max-width: 30%;
     min-width: 20%;
     display: flex;
     flex-wrap: wrap;
@@ -171,7 +172,33 @@ footer a:hover {
 
 
 
-@media screen and (max-device-width:900px) {
+
+/* RESPONSIVE */
+
+
+@media screen and (max-device-width:1400px) {
+    
+    .container-text {
+      margin-top: 3%;
+    }
+    
+    .container-text p {
+   
+        font-size: 0.8rem;
+    }
+    
+    .container-text h2{
+        font-size: 1.1rem;
+    }
+    .container-text a{
+        font-size: 1rem;
+        padding: 5%;
+    }
+
+}
+
+
+@media screen and (max-device-width:800px) {
 
     header nav {
         display: flex;
