@@ -64,7 +64,7 @@ nav a:hover{
     display: flex;
    
     justify-content: space-around;
-    padding: 2% 0 0 0;
+    padding: 2% 2% 0 0;
     /* height: 60%; */
 }
 
@@ -78,6 +78,10 @@ nav a:hover{
     padding: 7% 0;
     height: 30%;
     font-family: 'Quicksand', sans-serif;
+}
+
+.container-text h2{
+    font-family: 'Acme', sans-serif;
 }
 
 .container-text a {
@@ -100,6 +104,8 @@ nav a:hover{
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 5%;
+    align-items: center;
+    flex-grow: 1;
 }
 
 .gallery-item {
@@ -111,9 +117,12 @@ nav a:hover{
 }
 
 .gallery-item img {
-    width: 100%;
+    width: 90%;
+    
 }
-
+.gallery-item img:hover{
+    border: #00ADB5 5px solid;
+}
 footer {
     /* display: flex;
  flex-direction: column; */
