@@ -61,16 +61,15 @@ header nav a:hover {
 
 
 .container-img {
-    min-width: 40%;
+    min-width: 40vw;
     /* min-width: 8rem; */
     /* display: inline-block; */
     display: flex;
 
     justify-content: space-around;
-    padding-top: 1rem;
+    padding-top: 5vh;
     flex-grow: 1;
-    margin-left: 5rem;
-
+    margin: 1% 10% 1% 15% ;
 }
 
 .container-text {
@@ -91,12 +90,12 @@ header nav a:hover {
 }
 
 .container-text a {
-    min-width: 5rem;
+    min-width: 5vw;
     background-color: #393E46;
     color: #EEEEEE;
     border-radius: 2rem;
     margin: auto;
-    padding: 1rem 2rem;
+    padding: 2vh 2vw;
 
     text-decoration: none;
     font-family: 'Acme', sans-serif;
@@ -113,14 +112,14 @@ header nav a:hover {
     justify-content: space-between;
     padding-top: 5%;
     align-items: center;
-    /* flex-grow: 1; */
+    flex-grow: 1;
 }
 
 .gallery-item {
-    display: inline-block;
-    min-width: 35rem;
+    /* display: inline-block; */
+    min-width: 22vw;
 
-    width: 21%;
+   
     text-align: center;
     padding-bottom: 2%;
     font-family: 'Acme', sans-serif;
